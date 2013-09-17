@@ -9,4 +9,6 @@ package org.eacan.server.event;
  */
 public interface IEventDispatcher {
 
+
+
 }
