@@ -10,6 +10,7 @@ import org.eacan.server.event.IEvent;
 import org.eacan.server.util.LogUtil;
 
 import java.util.List;
+import java.util.zip.Adler32;
 
 /**
  * 项目名称:
@@ -21,6 +22,13 @@ import java.util.List;
 public class MessageBufferEventEncoder extends MessageToMessageEncoder<IEvent>{
     private static final Logger logger = LogUtil.getDefaultInstance();
 
+    /***************************************************************************
+     * |1byte |4byte |dynmic    |
+     *  ___________________________________________
+     * |      |      |          |    |    |        |
+     * |opcode|length|namelength|name|data|checksum|
+     * |______|______|__________|____|____|________|
+     ***************************************************************************/
     @Override
     protected void encode(ChannelHandlerContext ctx, IEvent msg, List<Object> out) throws Exception {
         if (null == msg)
@@ -34,8 +42,21 @@ public class MessageBufferEventEncoder extends MessageToMessageEncoder<IEvent>{
         {
             Message message = msg.getMessage();
             int size = message.getSerializedSize();
-//            ByteBuf byteBuf = new
-        }
+            String name = message.getDescriptorForType().getFullName();
+            ByteBuf byteBuf = Unpooled.buffer(4+1+name.length()+size+4);
+            byteBuf.writeInt(name.length()+1); // namelength
+            byteBuf.writeBytes(name.getBytes()); // name
+            byteBuf.writeZero(1);  //name \0 end
+            byteBuf.writeBytes(message.toByteArray());  //data
 
+            Adler32 checksum = new Adler32();
+            checksum.update(byteBuf.array(), byteBuf.arrayOffset(), byteBuf.readableBytes());
+            byteBuf.writeInt((int) checksum.getValue());
+            buf = Unpooled.wrappedBuffer(opcode,byteBuf);  //checksum
+        }else
+        {
+            buf = opcode;
+        }
+        out.add(buf);
     }
 }
