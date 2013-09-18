@@ -33,6 +33,7 @@ public class ReaderPacketHandler implements Runnable{
                 IEvent event = readQueue.poll();
                 if (event!=null){
                     //TODO:进入eventDispatcher 具体分发
+
                 }
             }catch (Exception e){
                 e.printStackTrace();

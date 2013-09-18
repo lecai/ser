@@ -23,7 +23,7 @@ public class MessageBufferEventEncoder extends MessageToMessageEncoder<IEvent>{
     private static final Logger logger = LogUtil.getDefaultInstance();
 
     /***************************************************************************
-     * |1byte |4byte |dynmic    |
+     * |1byte |4byte |dynamic   |
      *  ___________________________________________
      * |      |      |          |    |    |        |
      * |opcode|length|namelength|name|data|checksum|
@@ -37,7 +37,7 @@ public class MessageBufferEventEncoder extends MessageToMessageEncoder<IEvent>{
         }
         ByteBuf opcode = Unpooled.buffer(1);
         opcode.writeByte(msg.getType());
-        ByteBuf buf = null;
+        ByteBuf buf;
         if (null != msg.getMessage())
         {
             Message message = msg.getMessage();

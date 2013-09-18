@@ -84,4 +84,10 @@ public class BaseSessionEventHandler implements ISessionEventHandler{
         }
     }
 
+    protected void onLoginSuccess(IEvent event){
+//        getSession().
+    }
+
+
+
 }

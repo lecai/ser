@@ -47,7 +47,7 @@ public class MessageBufferEventDecoder extends ByteToMessageDecoder{
             if (message!=null)
             {
                 message.newBuilderForType().mergeFrom(in.array(),in.arrayOffset()+in.readerIndex(),
-                        in.readableBytes()-4).build();
+                        in.readableBytes()-4).build();  //其中 4表示 checksum 占4个byte
             }
             IEvent event = Events.event(message,opcode);
             out.add(event);

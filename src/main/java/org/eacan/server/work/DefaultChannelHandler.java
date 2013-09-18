@@ -3,6 +3,7 @@ package org.eacan.server.work;
 import io.netty.channel.ChannelHandlerContext;
 import org.apache.log4j.Logger;
 import org.eacan.server.common.AbstractChannelHandler;
+import org.eacan.server.event.IEvent;
 import org.eacan.server.model.Player;
 import org.eacan.server.util.LogUtil;
 
@@ -20,7 +21,7 @@ public class DefaultChannelHandler extends AbstractChannelHandler{
 
     private State  state;
     private Player player;
-
+    private IProcess process;
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
@@ -33,9 +34,7 @@ public class DefaultChannelHandler extends AbstractChannelHandler{
     }
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
-        super.channelRead(ctx, msg);
-
-
+       process.process((IEvent)msg);
     }
 
     public static enum State
@@ -48,5 +47,13 @@ public class DefaultChannelHandler extends AbstractChannelHandler{
          * player authenticated
          */
         AUTHED,
+    }
+
+    public IProcess getProcess() {
+        return process;
+    }
+
+    public void setProcess(IProcess process) {
+        this.process = process;
     }
 }

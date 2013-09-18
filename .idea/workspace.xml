@@ -4,7 +4,7 @@
     <list default="true" id="4932fe82-de76-437c-81dc-1951ac718146" name="Default" comment="" />
     <ignored path="clserver.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379055035714" ignored="false" />
+    <file path="/Main.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379413953611" ignored="false" />
     <file path="/LogUtil.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379054615277" ignored="false" />
     <file path="/Processer.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379055205747" ignored="false" />
     <file path="/AbstractHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379055273003" ignored="false" />
@@ -13,8 +13,8 @@
     <file path="/IGameCommandInterpreter.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379057281990" ignored="false" />
     <file path="/fragment.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379057303798" ignored="false" />
     <file path="/Player.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379260879261" ignored="false" />
-    <file path="/DefaultChannelHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379261372184" ignored="false" />
-    <file path="/Process.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379262473231" ignored="false" />
+    <file path="/DefaultChannelHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379409870353" ignored="false" />
+    <file path="/Process.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379408526731" ignored="false" />
     <file path="/ChannelType.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379061366336" ignored="false" />
     <file path="/ISession.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379065187589" ignored="false" />
     <file path="/Channel.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379065106045" ignored="false" />
@@ -26,7 +26,7 @@
     <file path="/Sessions.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379252139054" ignored="false" />
     <file path="/a.dummy" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379256789905" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/org/eacan/server/handlers/IRequestHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379257957038" ignored="false" />
-    <file path="/ReaderPacketHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379326961064" ignored="false" />
+    <file path="/ReaderPacketHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379414193806" ignored="false" />
     <file path="/WritePacketHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379258014821" ignored="false" />
     <file path="/PlayerSessionTest.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379296415721" ignored="false" />
     <file path="/IEvent.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379309329993" ignored="false" />
@@ -37,10 +37,14 @@
     <file path="/Test.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379303719608" ignored="false" />
     <file path="/IEventHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379310359845" ignored="false" />
     <file path="/ISessionEventHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379310624522" ignored="false" />
-    <file path="/BaseSessionEventHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379311227526" ignored="false" />
+    <file path="/BaseSessionEventHandler.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379481093552" ignored="false" />
     <file path="/Dummy.txt" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379318239617" ignored="false" />
-    <file path="/MessageBufferEventEncoder.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379398903490" ignored="false" />
-    <file path="/MessageBufferEventDecoder.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379400151890" ignored="false" />
+    <file path="/MessageBufferEventEncoder.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379400913170" ignored="false" />
+    <file path="/MessageBufferEventDecoder.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379400847612" ignored="false" />
+    <file path="/SocketInitializer.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379409075761" ignored="false" />
+    <file path="/App.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379409772411" ignored="false" />
+    <file path="/IMessageSender.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379481763360" ignored="false" />
+    <file path="/MessageSender.java" changelist="4932fe82-de76-437c-81dc-1951ac718146" time="1379482402667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,25 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MessageBufferEventEncoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/codec/MessageBufferEventEncoder.java">
+      <file leaf-file-name="DefaultChannelHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/work/DefaultChannelHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="37" selection-start="856" selection-end="871" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageBufferEventDecoder.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/codec/MessageBufferEventDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="63" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.54215115">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#670#687#0" expanded="true" />
-              </folding>
+            <state line="45" column="25" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.5945946">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,22 +129,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/model/GameRoomSession.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/eacan/server/model/impl/PlayerSessionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/IEventContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/impl/BaseEventContext.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/eacan/server/model/impl/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/IEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/impl/BaseEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/Events.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/IEventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/ISessionEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/impl/BaseSessionEventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/util/DoubleBufferedQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/IEventDispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/handlers/ReaderPacketHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/codec/MessageBufferEventEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/codec/MessageBufferEventDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/codec/MessageBufferEventEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/work/Process.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/work/SocketInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/work/DefaultChannelHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/handlers/ReaderPacketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/common/IMessageSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/event/impl/BaseSessionEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/eacan/server/common/impl/MessageSender.java" />
       </list>
     </option>
   </component>
@@ -195,9 +185,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-30" />
+    <option name="x" value="1" />
     <option name="y" value="22" />
-    <option name="width" value="1439" />
+    <option name="width" value="1449" />
     <option name="height" value="790" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -257,8 +247,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -377,7 +367,225 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,8 +775,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-30" y="22" width="1439" height="790" extended-state="0" />
-    <editor active="true" />
+    <frame x="1" y="22" width="1449" height="790" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -588,7 +796,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.67" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26058865" sideWeight="0.67057294" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31193927" sideWeight="0.67057294" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28385416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982001" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -668,106 +876,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/event/IEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="237" selection-end="237" vertical-scroll-proportion="0.3243243" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/model/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="118" selection-end="118" vertical-scroll-proportion="0.18243243" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/model/ChannelType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="108" selection-end="108" vertical-scroll-proportion="0.18243243" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/model/GameRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="136" selection-end="136" vertical-scroll-proportion="0.22297297" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/model/GameRoomSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="43" selection-start="2884" selection-end="2884" vertical-scroll-proportion="0.4027027" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/util/IdFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.22297297">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.23648648">
+        <state line="9" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="-0.6824324">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/event/ISessionEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="91" selection-start="423" selection-end="423" vertical-scroll-proportion="0.38513514" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/event/impl/BaseSessionEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="43" selection-start="894" selection-end="894" vertical-scroll-proportion="0.32027027">
+        <state line="11" column="17" selection-start="154" selection-end="154" vertical-scroll-proportion="0.22297297">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/handlers/ReaderPacketHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/util/DoubleBufferedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="4" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.8.Final/netty-all-4.0.8.Final-sources.jar!/io/netty/handler/codec/MessageToMessageEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="22" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.33243242">
+        <state line="20" column="13" selection-start="441" selection-end="441" vertical-scroll-proportion="-0.6283784">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/event/IEventDispatcher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/util/IdFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="95" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" />
+        <state line="13" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0472973">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.8.Final/netty-all-4.0.8.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/model/DefaultSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1363" column="26" selection-start="56301" selection-end="56307" vertical-scroll-proportion="0.44186047">
+        <state line="16" column="13" selection-start="306" selection-end="306" vertical-scroll-proportion="0.02027027">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/event/impl/BaseEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/event/Events.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="50" selection-start="2695" selection-end="2695" vertical-scroll-proportion="0.5072674">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="14" column="13" selection-start="285" selection-end="285" vertical-scroll-proportion="-1.4121622">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/codec/MessageBufferEventEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="37" selection-start="856" selection-end="871" vertical-scroll-proportion="0.0">
+        <state line="21" column="13" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0472973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/event/impl/BaseEventContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.22297297">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/model/InvalidCommandException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="45" selection-start="468" selection-end="468" vertical-scroll-proportion="0.48846677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/handlers/ReaderPacketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="20" selection-start="994" selection-end="994" vertical-scroll-proportion="0.651289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/event/impl/BaseSessionEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="23" selection-start="2260" selection-end="2260" vertical-scroll-proportion="0.8616011">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/common/IMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.3052917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/common/impl/MessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="60" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.48846677">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/codec/MessageBufferEventDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/common/AbstractChannelHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="63" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.54215115">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#670#687#0" expanded="true" />
-          </folding>
+        <state line="17" column="22" selection-start="353" selection-end="353" vertical-scroll-proportion="0.2238806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/eacan/server/work/DefaultChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="25" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.5945946">
+          <folding />
         </state>
       </provider>
     </entry>
