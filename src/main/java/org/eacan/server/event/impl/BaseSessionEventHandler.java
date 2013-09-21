@@ -43,7 +43,8 @@ public class BaseSessionEventHandler implements ISessionEventHandler{
         return Events.ANY;
     }
 
-    protected void doEventHandlerMethodLookUp(IEvent event){
+    @Override
+    public void doEventHandlerMethodLookUp(IEvent event){
         switch (event.getType()){
             case Events.SESSION_MESSAGE:
                 break;

@@ -26,6 +26,9 @@ public class Player {
      */
     PlayerSession playerSession;
 
+    public Player(){
+
+    }
     public Player(Object id, String name, String emailId, PlayerSession playerSession) {
         this.id = id;
         this.name = name;

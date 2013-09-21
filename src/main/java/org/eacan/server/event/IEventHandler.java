@@ -15,4 +15,6 @@ public interface IEventHandler {
     void onEvent(IEvent event);
 
     int getEventType();
+
+    void doEventHandlerMethodLookUp(IEvent event);
 }
